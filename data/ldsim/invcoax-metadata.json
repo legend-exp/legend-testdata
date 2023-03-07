@@ -1,16 +1,15 @@
 {
-    "det_name": "Public Inverted Coax",
-    "det_type": "icpc",
+    "name": "Public Inverted Coax",
+    "type": "icpc",
     "production": {
       "manufacturer": "Nobody",
-      "order": 0.0,
+      "order": 0,
       "serialno": "X00000X",
       "crystal": "000",
       "slice": "X",
       "enrichment": 0.9,
-      "reprocessing": "none",
-      "dep_voltage_in_V": 3500.0,
-      "rec_voltage_in_V": 4000.0,
+      "reprocessing": false,
+      "mass_in_g": 1700,
       "impcc": {
         "array": {
           "value_in_1e9e/cm3": [
@@ -26,24 +25,18 @@
           "quadratic_in_1e10e/cm5": 0
         }
       },
-      "delivered": "22-06-2021"
+      "delivered": "2021-06-22"
     },
     "geometry": {
-      "mass_in_g": 1700.0,
       "height_in_mm": 80.0,
       "radius_in_mm": 35.0,
-      "bottom_cyl": {
-        "radius_in_mm": 0,
-        "height_in_mm": 0,
-        "transition_in_mm": 0
-      },
       "bulletization": {
         "top_radius_in_mm": 0,
         "bottom_radius_in_mm": 0,
-        "well_radius_in_mm": 0,
+        "borehole_radius_in_mm": 0,
         "contact_radius_in_mm": 0
       },
-      "well": {
+      "borehole": {
         "gap_in_mm": 25.0,
         "radius_in_mm": 5.0
       },
@@ -73,38 +66,30 @@
             "height_in_mm": 0
           }
         }
-      },
-      "topgroove": {
-        "radius_in_mm": 0,
-        "depth_in_mm": 0
-      },
-      "crack": {
-        "radius_in_mm": 0,
-        "height_in_mm": 0
-      },
-      "dl_thickness_in_mm": 0
+      }
     },
     "characterization": {
       "manufacturer": {
-        "dep_voltage_in_V": 3500.0,
-        "op_voltage_in_V": 4000.0,
-        "57co_fep_res_in_keV": 0.0,
-        "60co_fep_res_in_keV": 0.0,
-        "dl_thickness_in_mm": 0
+        "depletion_voltage_in_V": 3500.0,
+        "recommended_voltage_in_V": 4000.0,
+        "fwhm_co57fep_in_keV": null,
+        "fwhm_co60fep_in_keV": null,
+        "dl_thickness_in_mm": null
       },
       "l200_site": {
-        "data": "@lfs1:/lfs/l1/legend/detector_char/enr/hades/char_data/I02160A",
         "daq": "flashcam",
-        "elog": "https://elog.legend-exp.org/site/?Det.+ID=I02160A",
-        "res": {
-          "cofep_in_keV": 0.0,
-          "tlfep_in_keV": 0.0
+        "depletion_voltage_in_V": 3300.0,
+        "recommended_voltage_in_V": 3800.0,
+        "fwhm_in_keV": {
+          "co60fep": null,
+          "qbb": null,
+          "tl208fep": null
         },
-        "sf": {
-          "tldep_in_pc": 0.0,
-          "qbb_in_pc": 0.0,
-          "tlsep_in_pc": 0.0,
-          "tlfep_in_pc": 0.0
+        "survival_fraction": {
+          "tl208dep": null,
+          "qbb": null,
+          "tl208sep": null,
+          "tl208fep": null
         }
       }
     }
