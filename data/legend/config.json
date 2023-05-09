@@ -3,8 +3,7 @@
         "l200": {
             "paths": {
                 "metadata": "$_/metadata",
-				"metadata/hardware/configuration": "$_/hardware-config",
-    
+
                 "tier": "$_/generated/tier",
                 "tier/raw": "/some/other/storage/raw_lh5",
                 "tier_dsp": "$_/generated/tier/dsp",
