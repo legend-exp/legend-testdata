@@ -1,0 +1,4 @@
+{"valid_from": "20221118T000000Z","category":"cal","apply":["L200-p02-r%-T%-all-config.json", "L200-p02-r%-T%-cal-config.json", "L200-p02-r007-T%-all-config.json"]}
+{"valid_from": "20221118T000000Z","category":"all","apply":["L200-p02-r%-T%-all-config.json", "L200-p02-r007-T%-all-config.json"]}
+{"valid_from": "20230118T153000Z","category":"cal","apply":["L200-p02-r%-T%-all-config.json", "L200-p02-r%-T%-cal-config.json", "L200-p02-r009-T%-all-config.json"]}
+{"valid_from": "20230118T150000Z","category":"all","apply":["L200-p02-r%-T%-all-config.json", "L200-p02-r009-T%-all-config.json"]}
