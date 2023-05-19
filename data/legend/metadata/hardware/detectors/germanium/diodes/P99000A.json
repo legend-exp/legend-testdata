@@ -1,15 +1,15 @@
 {
-  "name": "V99000A",
-  "type": "icpc",
+  "name": "P99000A",
+  "type": "ppc",
   "production": {
-    "manufacturer": "Dummy Manufacturer",
-    "order": 99,
+    "manufacturer": "Dummy Manifacturer",
+    "order": 0,
     "crystal": "000",
     "slice": "A",
     "enrichment": 0.75,
     "passivation": true,
     "reprocessing": false,
-    "mass_in_g": 2500.0,
+    "mass_in_g": 1000.0,
     "impcc": {
       "array": {
         "value_in_1e9e/cm3": [0.0, 0.0],
@@ -21,53 +21,38 @@
         "quadratic_in_1e10e/cm5": 0
       }
     },
-    "delivered": 0
+    "delivered": "2023-01-01"
   },
   "geometry": {
-    "height_in_mm": 80,
-    "radius_in_mm": 35,
-    "borehole": {
-      "radius_in_mm": 5,
-      "depth_in_mm": 55
-    },
-    "groove": {
-      "depth_in_mm": 1,
-      "radius_in_mm": {
-        "outer": 10,
-        "inner": 9
-      }
-    },
+    "height_in_mm": 50.0,
+    "radius_in_mm": 30.0,
     "pp_contact": {
-      "radius_in_mm": 3,
+      "radius_in_mm": 2,
       "depth_in_mm": 2
     },
     "taper": {
       "top": {
-        "angle_in_deg": 10,
-        "height_in_mm": 60
+        "angle_in_deg": 0,
+        "height_in_mm": 0
       },
       "bottom": {
-        "angle_in_deg": 0,
-        "height_in_mm": 0
-      },
-      "borehole": {
-        "angle_in_deg": 0,
-        "height_in_mm": 0
+        "angle_in_deg": 30,
+        "height_in_mm": 10
       }
     }
   },
   "characterization": {
     "manufacturer": {
-      "depletion_voltage_in_V": 4000.0,
-      "recommended_voltage_in_V": 4000.0,
-      "fwhm_co57fep_in_keV": 0,
-      "fwhm_co60fep_in_keV": 0,
+      "depletion_voltage_in_V": 3000.0,
+      "recommended_voltage_in_V": 3000.0,
+      "fwhm_co57fep_in_keV": 1.0,
+      "fwhm_co60fep_in_keV": 2.0,
       "dl_thickness_in_mm": 0
     },
     "l200_site": {
       "daq": "dummydaq",
-      "depletion_voltage_in_V": 4000.0,
-      "recommended_voltage_in_V": 4000.0,
+      "depletion_voltage_in_V": 0,
+      "recommended_voltage_in_V": 0,
       "fwhm_in_keV": {
         "co60fep": 0,
         "tl208fep": 0,

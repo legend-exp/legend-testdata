@@ -1,19 +1,19 @@
 {
-  "name": "V99000A",
-  "type": "icpc",
+  "name": "C99000A",
+  "type": "coax",
   "production": {
-    "manufacturer": "Dummy Manufacturer",
-    "order": 99,
+    "manufacturer": "Dummy Manifacturer",
+    "order": 0,
     "crystal": "000",
     "slice": "A",
     "enrichment": 0.75,
-    "passivation": true,
-    "reprocessing": false,
-    "mass_in_g": 2500.0,
+    "passivation": false,
+    "reprocessing": true,
+    "mass_in_g": 2000,
     "impcc": {
       "array": {
-        "value_in_1e9e/cm3": [0.0, 0.0],
-        "dist_from_contact_in_mm": [0.0, 0.0]
+        "value_in_1e9e/cm3": [0, 0],
+        "dist_from_contact_in_mm": [0, 0]
       },
       "function_pars": {
         "z0_in_1e10e/cm3": 0,
@@ -21,34 +21,34 @@
         "quadratic_in_1e10e/cm5": 0
       }
     },
-    "delivered": 0
+    "delivered": "2023-01-01"
   },
   "geometry": {
     "height_in_mm": 80,
-    "radius_in_mm": 35,
+    "radius_in_mm": 40,
     "borehole": {
-      "radius_in_mm": 5,
-      "depth_in_mm": 55
+      "radius_in_mm": 7,
+      "depth_in_mm": 70
     },
     "groove": {
-      "depth_in_mm": 1,
+      "depth_in_mm": 2,
       "radius_in_mm": {
-        "outer": 10,
-        "inner": 9
+        "outer": 20,
+        "inner": 17
       }
     },
     "pp_contact": {
-      "radius_in_mm": 3,
-      "depth_in_mm": 2
+      "radius_in_mm": 17,
+      "depth_in_mm": 0
     },
     "taper": {
       "top": {
-        "angle_in_deg": 10,
-        "height_in_mm": 60
+        "angle_in_deg": 45,
+        "height_in_mm": 5
       },
       "bottom": {
-        "angle_in_deg": 0,
-        "height_in_mm": 0
+        "angle_in_deg": 45,
+        "height_in_mm": 2
       },
       "borehole": {
         "angle_in_deg": 0,
@@ -58,20 +58,20 @@
   },
   "characterization": {
     "manufacturer": {
-      "depletion_voltage_in_V": 4000.0,
-      "recommended_voltage_in_V": 4000.0,
-      "fwhm_co57fep_in_keV": 0,
-      "fwhm_co60fep_in_keV": 0,
+      "depletion_voltage_in_V": 3000,
+      "recommended_voltage_in_V": 3000,
+      "fwhm_co57fep_in_keV": 0.0,
+      "fwhm_co60fep_in_keV": 0.0,
       "dl_thickness_in_mm": 0
     },
     "l200_site": {
       "daq": "dummydaq",
-      "depletion_voltage_in_V": 4000.0,
-      "recommended_voltage_in_V": 4000.0,
+      "depletion_voltage_in_V": 3000,
+      "recommended_voltage_in_V": 3000,
       "fwhm_in_keV": {
         "co60fep": 0,
-        "tl208fep": 0,
-        "qbb": 0
+        "qbb": 0,
+        "tl208fep": 0
       },
       "survival_fraction": {
         "tl208dep": 0,
