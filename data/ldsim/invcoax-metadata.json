@@ -4,10 +4,10 @@
     "production": {
       "manufacturer": "Nobody",
       "order": 0,
-      "serialno": "X00000X",
       "crystal": "000",
       "slice": "X",
       "enrichment": 0.9,
+      "passivation": true,
       "reprocessing": false,
       "mass_in_g": 1700,
       "impcc": {
@@ -30,42 +30,34 @@
     "geometry": {
       "height_in_mm": 80.0,
       "radius_in_mm": 35.0,
-      "bulletization": {
-        "top_radius_in_mm": 0,
-        "bottom_radius_in_mm": 0,
-        "borehole_radius_in_mm": 0,
-        "contact_radius_in_mm": 0
-      },
       "borehole": {
-        "gap_in_mm": 25.0,
+        "depth_in_mm": 55,
         "radius_in_mm": 5.0
       },
       "groove": {
-        "outer_radius_in_mm": 15.0,
-        "depth_in_mm": 0.0,
-        "width_in_mm": 4.2
+        "depth_in_mm": 1,
+        "radius_in_mm": {
+          "outer": 15.0,
+          "inner": 10.8
+        }
       },
-      "contact": {
+      "pp_contact": {
         "radius_in_mm": 3.0,
         "depth_in_mm": 2.0
       },
       "taper": {
         "top": {
-          "inner": {
-            "angle_in_deg": 0,
-            "height_in_mm": 0
-          },
-          "outer": {
-            "angle_in_deg": 10.0,
-            "height_in_mm": 60
-          }
+          "angle_in_deg": 10.0,
+          "height_in_mm": 60
         },
         "bottom": {
-          "outer": {
+          "angle_in_deg": 0,
+          "height_in_mm": 0
+        },
+        "borehole": {
             "angle_in_deg": 0,
             "height_in_mm": 0
           }
-        }
       }
     },
     "characterization": {
