@@ -1,0 +1,14 @@
+{
+  "name": "000",
+  "order": "99",
+  "enrichment": 0.88,
+  "impurity_measurements": {
+    "value_in_1e9e_cm3": [9, 10, 12, 13, 20],
+    "distance_from_seed_end_mm": [0, 27, 50, 80, 110]
+  },
+  "slices": {
+    "A": {
+      "detector_offset_in_mm": 40
+    }
+  }
+}
