@@ -6,7 +6,10 @@
     "order": 0,
     "crystal": "000",
     "slice": "A",
-    "enrichment": 0.75,
+    "enrichment": {
+      "val": 0.75,
+      "unc": 0.05
+    },
     "passivation": true,
     "reprocessing": false,
     "mass_in_g": 1000.0,
