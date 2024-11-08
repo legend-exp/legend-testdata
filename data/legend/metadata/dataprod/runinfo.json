@@ -1,0 +1,76 @@
+{
+  "p02": {
+    "r000": {
+      "cal": {
+        "start_key": "20230312T100000Z"
+      },
+      "phy": {
+        "start_key": "20230313T100000Z",
+        "livetime_in_s": 400000
+      }
+    },
+    "r001": {
+      "cal": {
+        "start_key": "20230319T100000Z"
+      },
+      "phy": {
+        "start_key": "20230320T100000Z",
+        "livetime_in_s": 500000
+      }
+    },
+    "r002": {
+      "cal": {
+        "start_key": "20230326T100000Z"
+      },
+      "phy": {
+        "start_key": "20230327T100000Z",
+        "livetime_in_s": 500000
+      }
+    },
+    "r003": {
+      "cal": {
+        "start_key": "20230401T100000Z"
+      },
+      "phy": {
+        "start_key": "20230402T100000Z",
+        "livetime_in_s": 400000
+      }
+    },
+    "r004": {
+      "cal": {
+        "start_key": "20230408T100000Z"
+      },
+      "phy": {
+        "start_key": "20230409T100000Z",
+        "livetime_in_s": 500000
+      }
+    },
+    "r005": {
+      "cal": {
+        "start_key": "20230415T100000Z"
+      },
+      "phy": {
+        "start_key": "20230416T100000Z",
+        "livetime_in_s": 400000
+      }
+    },
+    "r006": {
+      "cal": {
+        "start_key": "20230422T100000Z"
+      },
+      "phy": {
+        "start_key": "20230423T100000Z",
+        "livetime_in_s": 400000
+      }
+    },
+    "r007": {
+      "cal": {
+        "start_key": "20230429T100000Z"
+      },
+      "phy": {
+        "start_key": "20230430T100000Z",
+        "livetime_in_s": 500000
+      }
+    }
+  }
+}
