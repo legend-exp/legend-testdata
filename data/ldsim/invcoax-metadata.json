@@ -86,6 +86,15 @@
           "tl208sep": null,
           "tl208fep": null
         }
+      },
+      "combined_0vbb_analysis": {
+        "fccd_in_mm": {
+          "value": 0.75,
+          "uncertainty": {
+            "pos": 0.10,
+            "neg": 0.10
+          }
+        }
       }
     }
 }
