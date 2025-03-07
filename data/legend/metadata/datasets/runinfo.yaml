@@ -1,0 +1,37 @@
+p02:
+  r000:
+    cal:
+      start_key: 20220101T000000Z
+    phy:
+      start_key: 20220102T000000Z
+      livetime_in_s: 10000
+  r001:
+    cal:
+      start_key: 20220201T000000Z
+    phy:
+      start_key: 20220202T000000Z
+      livetime_in_s: 10000
+  r002:
+    cal:
+      start_key: 20220301T000000Z
+    phy:
+      start_key: 20220302T000000Z
+      livetime_in_s: 10000
+  r003:
+    cal:
+      start_key: 20220401T000000Z
+    phy:
+      start_key: 20220402T000000Z
+      livetime_in_s: 10000
+  r004:
+    cal:
+      start_key: 20220501T000000Z
+    phy:
+      start_key: 20220502T000000Z
+      livetime_in_s: 10000
+  r005:
+    cal:
+      start_key: 20220601T000000Z
+    phy:
+      start_key: 20220602T000000Z
+      livetime_in_s: 10000
