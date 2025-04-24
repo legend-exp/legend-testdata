@@ -1,8 +1,8 @@
-- valid_from: 20221118T000000Z
+- valid_from: 20220101T000000Z
   category: cal
   apply:
-    - L200-p02-r%-T%-all-config.json
-    - L200-p02-r%-T%-cal-config.json
-- valid_from: 20221118T000000Z
+    - L200-p02-r%-T%-all-config.yaml
+    - L200-p02-r%-T%-cal-config.yaml
+- valid_from: 20220102T000000Z
   apply:
-    - L200-p02-r%-T%-all-config.json
+    - L200-p02-r%-T%-all-config.yaml

@@ -8,5 +8,5 @@ paths:
   par: "$_/generated/par"
   par/dsp": "$_/generated/par/dsp"
 
-  log: "$_/generated/log",
+  log: "$_/generated/log"
   plt: "$_/generated/plt"

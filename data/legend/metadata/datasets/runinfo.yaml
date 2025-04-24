@@ -35,3 +35,15 @@ p02:
     phy:
       start_key: 20220602T000000Z
       livetime_in_s: 10000
+  r006:
+    cal:
+      start_key: 20220701T000000Z
+    phy:
+      start_key: 20220702T000000Z
+      livetime_in_s: 10000
+  r007:
+    cal:
+      start_key: 20220801T000000Z
+    phy:
+      start_key: 20220802T000000Z
+      livetime_in_s: 10000
