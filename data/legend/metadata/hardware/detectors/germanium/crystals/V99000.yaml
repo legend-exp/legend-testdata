@@ -13,6 +13,14 @@ impurity_measurements:
   - 30
   - 50
   - 80
+impurity_curve:
+  model: linear_exponential_boule
+  parameters:
+    a: 8.438
+    b: 0.03898
+    n: 0.0
+    l: 34.18
+    m: 44.09
 slices:
   A:
     detector_offset_in_mm: 80
