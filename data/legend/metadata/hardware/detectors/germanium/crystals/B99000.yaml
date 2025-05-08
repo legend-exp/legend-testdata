@@ -13,6 +13,15 @@ impurity_measurements:
   - 50
   - 80
   - 110
+impurity_curve:
+  model: parabolic_exponential_boule
+  parameters:
+    a: 8.878
+    b: 0.05814
+    c: -6.66e-5
+    n: 0.008353
+    l: 99.46
+    m: 1.623
 slices:
   A:
     detector_offset_in_mm: 40
