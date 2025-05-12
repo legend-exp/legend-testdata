@@ -54,7 +54,7 @@ characterization:
     recommended_voltage_in_V: 4000.0
     fwhm_co57fep_in_keV: 0
     fwhm_co60fep_in_keV: 0
-    dl_thickness_in_mm: 0
+    dl_thickness_in_mm: 1
   l200_site:
     daq: dummydaq
     depletion_voltage_in_V: 4000.0
