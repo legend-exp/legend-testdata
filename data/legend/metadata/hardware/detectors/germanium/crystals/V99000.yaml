@@ -21,6 +21,9 @@ impurity_curve:
     n: 0.0
     l: 34.18
     m: 44.09
+  corrections:
+    offset: 0
+    scale: 1
 slices:
   A:
     detector_offset_in_mm: 80
