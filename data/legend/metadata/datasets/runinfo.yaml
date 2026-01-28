@@ -48,6 +48,44 @@ p02:
       start_key: 20220802T000000Z
       livetime_in_s: 10000
 
+p03:
+  r000:
+    cal:
+      start_key: 20230311T235840Z
+    phy:
+      start_key: 20230312T043356Z
+      livetime_in_s: 10000
+  r001:
+    cal:
+      start_key: 20230317T211819Z
+    phy:
+      start_key: 20230318T015140Z
+      livetime_in_s: 10000
+  r002:
+    cal:
+      start_key: 20230324T161401Z
+    phy:
+      start_key: 20230324T205907Z
+      livetime_in_s: 10000
+  r003:
+    cal:
+      start_key: 20230331T161141Z
+    phy:
+      start_key: 20230401T012732Z
+      livetime_in_s: 10000
+  r004:
+    cal:
+      start_key: 20230406T192453Z
+    phy:
+      start_key: 20230406T235540Z
+      livetime_in_s: 10000
+  r005:
+    cal:
+      start_key: 20230412T124030Z
+    phy:
+      start_key: 20230412T171450Z
+      livetime_in_s: 10000
+
 p13:
   r001:
     ant: # argon noise-triggers thorium
