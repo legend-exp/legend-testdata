@@ -10,23 +10,29 @@
     - l200-p02-r%-T%-cal-config.yaml
     - l200-p02-r006-T%-all-config.yaml
 
-- valid_from: 20230702T000000Z
+- valid_from: 20210702T000000Z
   mode: replace
   apply:
     - l200-p02-r006-T%-all-config.yaml
     - l200-p02-r009-T%-all-config.yaml
 
-- valid_from: 20230701T000000Z
+- valid_from: 20210701T000000Z
   mode: replace
   category: cal
   apply:
     - l200-p02-r006-T%-all-config.yaml
     - l200-p02-r009-T%-all-config.yaml
 
-- valid_from: 20250716T161517Z
+- valid_from: 20230300T000000Z
   mode: reset
   category:
     - all
     - cal
+  apply:
+    - l200-p03-r%-T%-all-config.yaml
+
+- valid_from: 20250700T000000Z
+  mode: reset
+  category: all
   apply:
     - l200-p15-r%-T%-all-config.yaml
