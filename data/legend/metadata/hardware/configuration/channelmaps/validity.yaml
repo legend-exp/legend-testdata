@@ -23,7 +23,7 @@
     - l200-p02-r006-T%-all-config.yaml
     - l200-p02-r009-T%-all-config.yaml
 
-- valid_from: 20230300T000000Z
+- valid_from: 20230301T000000Z
   mode: reset
   category:
     - all
@@ -31,7 +31,7 @@
   apply:
     - l200-p03-r%-T%-all-config.yaml
 
-- valid_from: 20250700T000000Z
+- valid_from: 20250701T000000Z
   mode: reset
   category: all
   apply:
