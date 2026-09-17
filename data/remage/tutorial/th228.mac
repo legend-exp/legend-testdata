@@ -1,0 +1,37 @@
+/RMG/Manager/Logging/LogLevel summary
+
+/RMG/Geometry/RegisterDetector Germanium BEGe 001
+/RMG/Geometry/RegisterDetector Germanium ICPC 002
+/RMG/Geometry/RegisterDetector Scintillator LAr 003
+
+/RMG/Output/NtupleUseVolumeName true
+
+/run/initialize
+
+# keep only events with a sizable energy deposit in germanium: this drops the
+# LAr steps of events with no coincident germanium hit
+/RMG/Output/Germanium/EdepCutLow 1 MeV
+
+# the primary vertices of the discarded events are not useful here
+/RMG/Output/Vertex/SkipPrimaryVertexOutput true
+
+# reduce the output size without changing the physics
+/RMG/Output/Germanium/StoreSinglePrecisionPosition true
+/RMG/Output/Germanium/StoreSinglePrecisionEnergy true
+/RMG/Output/Scintillator/StoreSinglePrecisionPosition true
+/RMG/Output/Scintillator/StoreSinglePrecisionEnergy true
+/RMG/Output/Scintillator/Cluster/PreClusterDistance 5 mm
+
+/RMG/Processes/Stepping/ResetInitialDecayTime true
+
+/RMG/Generator/Confine Volume
+/RMG/Generator/Confinement/SampleOnSurface false
+/RMG/Generator/Confinement/Physical/AddVolume Source
+
+/RMG/Generator/Select GPS
+/gps/particle ion
+/gps/energy 0 eV
+/gps/ion 90 228
+/process/had/rdm/nucleusLimits 208 228 81 90
+
+/run/beamOn 500000

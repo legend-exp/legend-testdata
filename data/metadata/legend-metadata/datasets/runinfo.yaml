@@ -1,0 +1,13 @@
+p03:
+  r000:
+    cal:
+      start_key: 20230311T235840Z
+    phy:
+      start_key: 20230312T043356Z
+      livetime_in_s: 10000
+  r001:
+    cal:
+      start_key: 20230317T211819Z
+    phy:
+      start_key: 20230318T015140Z
+      livetime_in_s: 10000

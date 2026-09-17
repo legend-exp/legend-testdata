@@ -1,0 +1,5 @@
+name: OB023024
+type: outer
+geometry:
+  tpb:
+    thickness_in_nm: 1000
