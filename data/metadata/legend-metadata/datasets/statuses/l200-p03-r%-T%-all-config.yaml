@@ -1,0 +1,27 @@
+V00001A:
+  processable: true
+  usability: "on"
+  psd:
+    status:
+      low_aoe: valid
+V00001B:
+  processable: true
+  usability: "on"
+V00002A:
+  processable: true
+  usability: "ac"
+V00002B:
+  processable: true
+  usability: "off"
+V00003A:
+  processable: true
+  usability: "off"
+V00003B:
+  processable: true
+  usability: "off"
+V00004A:
+  processable: true
+  usability: "off"
+V00004B:
+  processable: true
+  usability: "off"

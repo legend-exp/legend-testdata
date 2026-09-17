@@ -1,0 +1,6 @@
+- valid_from: 20230301T000000Z
+  category:
+    - all
+    - cal
+  apply:
+    - l200-p03-r%-T%-all-config.yaml

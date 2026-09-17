@@ -1,0 +1,20 @@
+[workspace]
+name = "remage-tutorial"
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[dependencies]
+python = "3.12.*"
+remage = "==1.0.0"
+geant4 = "==11.3.2"
+legend-pygeom-hpges = "==0.10.0"
+legend-pygeom-tools = "==0.7.1"
+pyg4ometry = "==1.4.6"
+
+[tasks]
+geometry = { cmd = "python make_geometry.py", outputs = ["geometry.gdml"] }
+
+[tasks.simulate]
+cmd = "remage --threads {{ threads }} --overwrite --gdml-files geometry.gdml --output-file th228-stp.lh5 --merge-output-files -- th228.mac"
+args = [{ arg = "threads", default = "12" }]
+depends-on = ["geometry"]
