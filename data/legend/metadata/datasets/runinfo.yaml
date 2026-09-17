@@ -2,88 +2,116 @@ p02:
   r000:
     cal:
       start_key: 20220101T000000Z
+      end_key: 20220101T030000Z
     phy:
       start_key: 20220102T000000Z
+      end_key: 20220102T030000Z
       livetime_in_s: 10000
   r001:
     cal:
       start_key: 20220201T000000Z
+      end_key: 20220201T030000Z
     phy:
       start_key: 20220202T000000Z
+      end_key: 20220202T030000Z
       livetime_in_s: 10000
   r002:
     cal:
       start_key: 20220301T000000Z
+      end_key: 20220301T030000Z
     phy:
       start_key: 20220302T000000Z
+      end_key: 20220302T030000Z
       livetime_in_s: 10000
   r003:
     cal:
       start_key: 20220401T000000Z
+      end_key: 20220401T030000Z
     phy:
       start_key: 20220402T000000Z
+      end_key: 20220402T030000Z
       livetime_in_s: 10000
   r004:
     cal:
       start_key: 20220501T000000Z
+      end_key: 20220501T030000Z
     phy:
       start_key: 20220502T000000Z
+      end_key: 20220502T030000Z
       livetime_in_s: 10000
   r005:
     cal:
       start_key: 20220601T000000Z
+      end_key: 20220601T030000Z
     phy:
       start_key: 20220602T000000Z
+      end_key: 20220602T030000Z
       livetime_in_s: 10000
   r006:
     cal:
       start_key: 20220701T000000Z
+      end_key: 20220701T030000Z
     phy:
       start_key: 20220702T000000Z
+      end_key: 20220702T030000Z
       livetime_in_s: 10000
   r007:
     cal:
       start_key: 20220801T000000Z
+      end_key: 20220801T030000Z
     phy:
       start_key: 20220802T000000Z
+      end_key: 20220802T030000Z
       livetime_in_s: 10000
 
 p03:
   r000:
     cal:
       start_key: 20230311T235840Z
+      end_key: 20230312T040457Z
     phy:
       start_key: 20230312T043356Z
+      end_key: 20230317T090516Z
       livetime_in_s: 10000
   r001:
     cal:
       start_key: 20230317T211819Z
+      end_key: 20230318T012228Z
     phy:
       start_key: 20230318T015140Z
+      end_key: 20230324T115844Z
       livetime_in_s: 10000
   r002:
     cal:
       start_key: 20230324T161401Z
+      end_key: 20230324T201418Z
     phy:
       start_key: 20230324T205907Z
+      end_key: 20230331T113930Z
       livetime_in_s: 10000
   r003:
     cal:
       start_key: 20230331T161141Z
+      end_key: 20230401T005834Z
     phy:
       start_key: 20230401T012732Z
+      end_key: 20230406T155021Z
       livetime_in_s: 10000
   r004:
     cal:
       start_key: 20230406T192453Z
+      end_key: 20230406T232705Z
     phy:
       start_key: 20230406T235540Z
+      end_key: 20230412T110650Z
       livetime_in_s: 10000
   r005:
     cal:
       start_key: 20230412T124030Z
+      end_key: 20230412T164337Z
     phy:
       start_key: 20230412T171450Z
+      end_key: 20230413T114417Z
       livetime_in_s: 10000
 
 p13:
@@ -101,17 +129,21 @@ p13:
   r003:
     anp: # argon noise-triggers physics
       start_key: 20241217T094846Z
+      end_key: 20241217T211122Z
       livetime_in_s: 420
     aph: # argon physics
       start_key: 20241217T095149Z
+      end_key: 20241217T212055Z
       livetime_in_s: 420
   r004:
     tst:
       start_key: 20241217T212313Z
+      end_key: 20241217T213022Z
       livetime_in_s: 420
   r005:
     tst:
       start_key: 20241217T213209Z
+      end_key: 20241218T021227Z
       livetime_in_s: 420
   r006:
     acs: # argon cesium
@@ -130,33 +162,44 @@ p13:
   r009:
     tst:
       start_key: 20250111T083232Z
+      end_key: 20250111T085908Z
       livetime_in_s: 420
 
 p16:
   r006:
     phy:
       start_key: 20251001T181505Z
+      end_key: 20251005T203057Z
       livetime_in_s: 69
     cal:
       start_key: 20251001T130640Z
+      end_key: 20251001T172340Z
     fft:
       start_key: 20251001T181428Z
+      end_key: 20251001T181428Z
     pzc:
       start_key: 20251001T150857Z
+      end_key: 20251001T172854Z
   r007:
     cal:
       start_key: 20251005T220109Z
+      end_key: 20251006T021843Z
     fft:
       start_key: 20251006T032205Z
+      end_key: 20251006T032205Z
     pzc:
       start_key: 20251006T000432Z
+      end_key: 20251006T022442Z
   r008:
     ssc:
       start_key: 20251006T205904Z
+      end_key: 20251007T085839Z
       livetime_in_s: 420
   r009:
     fft:
       start_key: 20251007T222823Z
+      end_key: 20251007T222823Z
     ssc:
       start_key: 20251007T101537Z
+      end_key: 20251007T221203Z
       livetime_in_s: 420
