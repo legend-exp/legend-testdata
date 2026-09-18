@@ -19,13 +19,11 @@ $ LEGEND_METADATA=$PWD legend-pygeom-l200 \
   `V00001B` and so on, 58 SiPM channels and a pulser channel. String slots and
   channel identifiers come from a real LEGEND-200 channel map, the names do not.
 - `simprod/config`: the _legend-simflow_ production configuration of the
-  `l200cfg01` experiment. `geom/special_metadata.yaml` holds the string and
-  calibration-tube geometry: `V99999Z` is wider and taller than any detector
-  operated in LEGEND-200, so the strings are widened around it.
+  `l200cfg01` experiment. `geom/l200cfg01-special-geom-metadata.yaml` holds the
+  string and calibration-tube geometry: `V99999Z` is wider and taller than any
+  detector operated in LEGEND-200, so the strings are widened around it.
 - `hardware/detectors`: one germanium record per channel, all of them copies of
   `V99999Z` that differ only in the name, so they share its crystal record. Plus
   the fiber modules.
 - `datasets`: run information, run lists and detector statuses for `p03`
   runs `r000` and `r001`.
-
-`make_hpge_array.py` regenerates everything but the `datasets`.
