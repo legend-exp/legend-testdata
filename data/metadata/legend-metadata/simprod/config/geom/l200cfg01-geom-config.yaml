@@ -1,3 +1,0 @@
-# $_ is this directory, i.e. <legend-metadata>/simprod/config/geom
-executable: legend-pygeom-l200
-special_metadata: $_/l200cfg01-special-geom-metadata.yaml
