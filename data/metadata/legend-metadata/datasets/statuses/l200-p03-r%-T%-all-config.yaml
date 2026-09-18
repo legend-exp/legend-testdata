@@ -25,3 +25,12 @@ V00004A:
 V00004B:
   processable: true
   usability: "off"
+S002:
+  processable: true
+  usability: "on"
+S003:
+  processable: true
+  usability: "ac"
+S007:
+  processable: true
+  usability: "off"
