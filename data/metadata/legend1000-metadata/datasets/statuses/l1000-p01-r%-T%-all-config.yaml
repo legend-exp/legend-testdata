@@ -1,0 +1,16 @@
+V99999Z:
+  usability: "on"
+  processable: true
+  psd:
+    status:
+      low_aoe: valid
+      high_aoe: valid
+      lq: valid
+
+S9999Z:
+  usability: "on"
+  processable: true
+
+PMT9999:
+  usability: "on"
+  processable: true

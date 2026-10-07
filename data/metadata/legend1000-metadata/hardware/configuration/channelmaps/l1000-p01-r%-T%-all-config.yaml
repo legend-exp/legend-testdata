@@ -1,0 +1,33 @@
+V99999Z:
+  name: V99999Z
+  system: geds
+  location:
+    string: 1
+    position: 1
+  daq:
+    rawid: 1000000
+
+S9999Z:
+  name: S9999Z
+  system: spms
+  location:
+    barrel: 1
+    fiber: S9999
+    position: top
+  daq:
+    rawid: 2000000
+
+PMT9999:
+  name: PMT9999
+  system: pmts
+  location:
+    name: wall
+    x: 1
+    y: 2
+    z: 3
+    direction:
+      nx: 1
+      ny: 2
+      nz: 3
+  daq:
+    rawid: 3000000
