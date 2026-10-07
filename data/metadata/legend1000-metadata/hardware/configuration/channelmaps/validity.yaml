@@ -1,0 +1,5 @@
+- valid_from: 20400101T000000Z
+  category:
+    - all
+  apply:
+    - l1000-p01-r%-T%-all-config.yaml

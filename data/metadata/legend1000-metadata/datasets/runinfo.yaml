@@ -1,0 +1,7 @@
+p01:
+  r000:
+    cal:
+      start_key: 20400101T000000Z
+    phy:
+      start_key: 20400101T010000Z
+      livetime_in_s: 10000
