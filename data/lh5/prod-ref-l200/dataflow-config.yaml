@@ -1,0 +1,47 @@
+paths:
+  metadata: $_/inputs
+  config: $_/inputs/dataprod/config
+  par_overwrite: $_/inputs/dataprod/par_overwrite
+  chan_map: $_/inputs/hardware/configuration
+  detector_status: $_/inputs/datasets
+  detector_db: $_inputs/hardware/detectors
+
+  tier: $_/generated/tier
+  tier_raw: $_/generated/tier/raw
+  tier_tcm: $_/generated/tier/tcm
+  tier_dsp: $_/generated/tier/dsp
+  tier_hit: $_/generated/tier/hit
+
+  par: $_/generated/par
+  par_raw: $_/generated/par/raw
+  par_tcm: $_/generated/par/tcm
+  par_dsp: $_/generated/par/dsp
+  par_hit: $_/generated/par/hit
+
+  plt: $_/generated/plt
+  log: $_/generated/log
+
+table_format:
+  raw: ch{ch:07d}/raw
+  dsp: ch{ch:07d}/dsp
+  hit: ch{ch:07d}/hit
+  tcm: hardware_tcm_1
+
+query:
+  cycle_def: experiment-period-run-datatype-starttime
+  ignored_cycles:
+    - datasets/ignored_daq_cycles/removed
+  tiers: [raw, dsp, hit]
+  tables:
+    raw: ch{@chan.daq.rawid:07d}/raw
+    dsp: ch{@chan.daq.rawid:07d}/dsp
+    hit: ch{@chan.daq.rawid:07d}/hit
+  evt_tiers: [tcm]
+  evt_tables:
+    tcm: hardware_tcm_1
+  metadata: LegendMetadata
+  meta_dbs:
+    run:
+      path: datasets/runinfo
+      cycle_entry: "{period}/{run}/{datatype}"
+      channel_entry: null
