@@ -1,0 +1,9 @@
+S002:
+  processable: true
+  usability: "on"
+S003:
+  processable: true
+  usability: "ac"
+S007:
+  processable: true
+  usability: "off"
