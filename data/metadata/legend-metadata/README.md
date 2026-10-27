@@ -14,8 +14,11 @@ simulates it, adding its own `simprod` configuration to this folder at runtime.
 - `hardware/configuration/channelmaps`: 8 germanium channels named `V00001A`,
   `V00001B` and so on, 58 SiPM channels and a pulser channel. String slots and
   channel identifiers come from a real LEGEND-200 channel map, the names do not.
+  From `p13` on, only the 58 SiPM channels are installed, as in the LEGEND-200
+  runs with the LAr instrumentation alone.
 - `hardware/detectors`: one germanium record per channel, all of them copies of
   `V99999Z` that differ only in the name, so they share its crystal record. Plus
   the fiber modules.
 - `datasets`: run information, run lists and detector statuses for `p03`
-  runs `r000` and `r001`.
+  runs `r000` and `r001`, plus run information and SiPM statuses for the `p13`
+  run `r003` (data type `aph`, no germanium detectors).

@@ -11,3 +11,8 @@ p03:
     phy:
       start_key: 20230318T015140Z
       livetime_in_s: 10000
+p13:
+  r003:
+    aph:
+      start_key: 20241217T095149Z
+      livetime_in_s: 10000
